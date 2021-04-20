@@ -10,6 +10,10 @@ function isMaleName(name)
   {
     return false;
   }
+  else
+  {
+    return true
+  }
 };
 
 module.exports = isMaleName;

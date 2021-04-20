@@ -1,33 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="4" failures="2" time="1.52">
-  <testsuite name="Funkcja isMaleName" errors="0" failures="2" skipped="0" timestamp="2021-04-20T16:07:33" time="0.799" tests="4">
-    <testcase classname="Funkcja isMaleName powinna zwrócić wartość typu boolean" name="Funkcja isMaleName powinna zwrócić wartość typu boolean" time="0.005">
-      <failure>Error: expect(received).toBe(expected) // Object.is equality
-
-Expected: &quot;boolean&quot;
-Received: &quot;undefined&quot;
-    at Object.&lt;anonymous&gt; (C:\Users\Pjoter\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-02-01-r\tests\test.js:7:27)
-    at Object.asyncJestTest (C:\Users\Pjoter\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-02-01-r\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:100:37)
-    at C:\Users\Pjoter\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-02-01-r\node_modules\jest-jasmine2\build\queueRunner.js:43:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (C:\Users\Pjoter\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-02-01-r\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
-    at C:\Users\Pjoter\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-02-01-r\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+<testsuites name="jest tests" tests="4" failures="0" time="0.472">
+  <testsuite name="Funkcja isMaleName" errors="0" failures="0" skipped="0" timestamp="2021-04-20T16:13:19" time="0.453" tests="4">
+    <testcase classname="Funkcja isMaleName powinna zwrócić wartość typu boolean" name="Funkcja isMaleName powinna zwrócić wartość typu boolean" time="0">
     </testcase>
-    <testcase classname="Funkcja isMaleName powinna zwrócić false gdy ostatnia litera imienia to &quot;a&quot;" name="Funkcja isMaleName powinna zwrócić false gdy ostatnia litera imienia to &quot;a&quot;" time="0">
+    <testcase classname="Funkcja isMaleName powinna zwrócić false gdy ostatnia litera imienia to &quot;a&quot;" name="Funkcja isMaleName powinna zwrócić false gdy ostatnia litera imienia to &quot;a&quot;" time="0.001">
     </testcase>
-    <testcase classname="Funkcja isMaleName powinna zwrócić true gdy ostatnią literą imienia nie jest &quot;a&quot;" name="Funkcja isMaleName powinna zwrócić true gdy ostatnią literą imienia nie jest &quot;a&quot;" time="0.001">
-      <failure>Error: expect(received).toBe(expected) // Object.is equality
-
-Expected: true
-Received: undefined
-    at Object.&lt;anonymous&gt; (C:\Users\Pjoter\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-02-01-r\tests\test.js:18:33)
-    at Object.asyncJestTest (C:\Users\Pjoter\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-02-01-r\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:100:37)
-    at C:\Users\Pjoter\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-02-01-r\node_modules\jest-jasmine2\build\queueRunner.js:43:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (C:\Users\Pjoter\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-02-01-r\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
-    at C:\Users\Pjoter\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-02-01-r\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+    <testcase classname="Funkcja isMaleName powinna zwrócić true gdy ostatnią literą imienia nie jest &quot;a&quot;" name="Funkcja isMaleName powinna zwrócić true gdy ostatnią literą imienia nie jest &quot;a&quot;" time="0">
     </testcase>
-    <testcase classname="Funkcja isMaleName powinna zwrócić true gdy imieniem jest &quot;Bonawentura&quot;" name="Funkcja isMaleName powinna zwrócić true gdy imieniem jest &quot;Bonawentura&quot;" time="0">
+    <testcase classname="Funkcja isMaleName powinna zwrócić true gdy imieniem jest &quot;Bonawentura&quot;" name="Funkcja isMaleName powinna zwrócić true gdy imieniem jest &quot;Bonawentura&quot;" time="0.001">
     </testcase>
   </testsuite>
 </testsuites>
