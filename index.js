@@ -1,12 +1,14 @@
 function isMaleName(name) 
 {
-  if ((name.substr(-1) == "a"  || name.substr(-1) == "A") & name != "Bonawentura" & name != "BONAWENTURA" & name != "bonawentura")
-  {
-    return false;
-  }
-  else 
+  name.toLowerCase();
+
+  if(name === "bonawentura")
   {
     return true;
+  }
+  else if(name.endsWith("a"))
+  {
+    return false;
   }
 };
 
